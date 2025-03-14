@@ -9,7 +9,7 @@
     "extensions": [
         {
             "extension": "881",
-            "name": "RT57i-TEL1",
+            "name": "黒電話",
             "type": "phone"
         },
         {
@@ -29,6 +29,12 @@
 			"name": "MIKANETEL",
 			"prefix": "510",
 			"mantela": "https://unstable.kusaremkn.com/.well-known/mantela.json"
+        },
+        {
+            "identifier": "5bbdd9ae-4d41-420c-80df-eba486495b12",
+			"mantela": "https://108jiminy.jp/phone/jiminypublicmantela.json",
+			"name": "jiminy Public",
+			"prefix": "108"
         }
     ]
 }
