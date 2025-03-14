@@ -30,6 +30,12 @@
     ],
     "providers": [
         {
+            "identifier": "4a96b422-c07e-7b84-82aa-cd665e1e69a8",
+			"name": "8yazaki",
+			"prefix": "0",
+			"mantela": "https://8yazaki.github.io/mantela/mantela.json"
+        },
+        {
             "identifier": "93b2d256-39c1-4053-bda1-c0643dd40690",
 			"name": "MIKANETEL",
 			"prefix": "510",
