@@ -1,3 +1,6 @@
+# Original
+[https://github.com/tkytel/mantela](https://github.com/tkytel/mantela)
+
 # Mantela &ndash; Telephone Network Mandala
 
 **Mantela** は、電話網を構成する電話局同士のつながりを表現できる JSON Schema です。
