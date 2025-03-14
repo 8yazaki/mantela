@@ -21,6 +21,11 @@
             "extension": "889",
             "name": "iPad",
             "type": "phone"
+        },
+        {
+            "extension": "1234",
+            "name": "Connection TEST ※Original BGM",
+            "type": "other"
         }
     ],
     "providers": [
