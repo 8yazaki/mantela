@@ -10,22 +10,22 @@
         {
             "extension": "881",
             "name": "黒電話",
-            "type": "phone"
+            "type": "dialphone"
         },
         {
             "extension": "888",
             "name": "iPhone",
-            "type": "main"
+            "type": "smartphone"
         },
         {
             "extension": "889",
             "name": "iPad",
-            "type": "phone"
+            "type": "smartphone"
         },
         {
             "extension": "1234",
             "name": "Connection TEST ※Original BGM",
-            "type": "other"
+            "type": "music"
         }
     ],
     "providers": [
