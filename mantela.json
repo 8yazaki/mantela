@@ -1,74 +1,92 @@
 {
-    "$schema": "https://tkytel.github.io/mantela/0.1/mantela.schema.json",
-    "version": "0.1.0",
-    "aboutMe": {
-      "identifier": "4a96b422-c07e-7b84-82aa-cd665e1e69a8",
-      "name": "8yazaki",
-      "preferredPrefix": [  "808" ]
-    },
-    "extensions": [
-      {
-        "name": "黒電話",
-        "extension": "881",
-        "type": "dialphone",
-        "identifier": "FAX3C2LK"
-      },
-      {
-        "name": "iPhone",
-        "extension": "888",
-        "type": "smartphone",
-        "identifier": "MAVTNZCT"
-      },
-      {
-        "name": "iPad",
-        "extension": "889",
-        "type": "cellphone",
-        "identifier": "8K0PV5V5"
-      },
-      {
-        "name": "Connection TEST ※Original BGM",
-        "extension": "1234",
-        "type": "information",
-        "identifier": "7KJFC63H"
-      }
+  "$schema": "https://tkytel.github.io/mantela/0.1/mantela.schema.json",
+  "version": "0.1.0",
+  "aboutMe": {
+    "name": "8yazaki",
+    "preferredPrefix": [
+      "808"
     ],
-    "providers": [
-      {
-        "name": "8yazaki",
-        "prefix": "0",
-        "identifier": "4a96b422-c07e-7b84-82aa-cd665e1e69a8",
-        "mantela": "https://8yazaki.github.io/mantela/mantela.json"
-      },
-      {
-        "name": "MIKANETEL",
-        "prefix": "510",
-        "identifier": "93b2d256-39c1-4053-bda1-c0643dd40690",
-        "mantela": "https://unstable.kusaremkn.com/.well-known/mantela.json"
-      },
-      {
-        "name": "jiminy Public",
-        "prefix": "108",
-        "identifier": "5bbdd9ae-4d41-420c-80df-eba486495b12",
-        "mantela": "https://108jiminy.jp/phone/jiminypublicmantela.json"
-      },
-      {
-        "name": "MCeTeLO",
-        "prefix": "917",
-        "identifier": "46fb2dc7-ee07-435d-9a27-0a7b4d43d3d7",
-        "mantela": "https://meishicafei.github.io/.well-known/mantela.json"
-      },
-      {
-        "name": "yude",
-        "prefix": "390",
-        "identifier": "3be47f94-3185-4198-ac3d-ca5ccb573cc2",
-        "mantela": "https://www.yude.jp.eu.org/.well-known/mantela.json"
-      }
-      ,
-      {
-        "name": "kimkim0106",
-        "prefix": "106",
-        "identifier": "8b741e2b-45f9-4187-9da1-05d866b79a09",
-        "mantela": "https://tkytel.github.io/mantela/0.1/mantela.schema.json"
-      }
-    ]
-  }
+    "identifier": "4a96b422-c07e-7b84-82aa-cd665e1e69a8"
+  },
+  "extensions": [
+    {
+      "name": "黒電話",
+      "extension": "881",
+      "identifier": "FAX3C2LK",
+      "type": "dialphone"
+    },
+    {
+      "name": "iPhone",
+      "extension": "888",
+      "identifier": "MAVTNZCT",
+      "type": "smartphone"
+    },
+    {
+      "name": "iPad",
+      "extension": "889",
+      "identifier": "8K0PV5V5",
+      "type": "cellphone"
+    },
+    {
+      "name": "Connection TEST ※Original BGM",
+      "extension": "1234",
+      "identifier": "7KJFC63H",
+      "type": "information"
+    },
+    {
+      "name": "Android",
+      "extension": "887",
+      "type": "smartphone",
+      "identifier": "9OR3XIF8"
+    },
+    {
+      "name": "main",
+      "extension": "220",
+      "type": "main",
+      "identifier": "EAU1TKMI",
+      "transferTo": [
+        "MAVTNZCT",
+        "8K0PV5V5",
+        "9OR3XIF8"
+      ]
+    }
+  ],
+  "providers": [
+    {
+      "name": "8yazaki",
+      "prefix": "0",
+      "identifier": "4a96b422-c07e-7b84-82aa-cd665e1e69a8",
+      "mantela": "https://8yazaki.github.io/mantela/mantela.json"
+    },
+    {
+      "name": "MIKANETEL",
+      "prefix": "510",
+      "identifier": "93b2d256-39c1-4053-bda1-c0643dd40690",
+      "mantela": "https://unstable.kusaremkn.com/.well-known/mantela.json"
+    },
+    {
+      "name": "jiminy Public",
+      "prefix": "108",
+      "identifier": "5bbdd9ae-4d41-420c-80df-eba486495b12",
+      "mantela": "https://108jiminy.jp/phone/jiminypublicmantela.json"
+    },
+    {
+      "name": "MCeTeLO",
+      "prefix": "917",
+      "identifier": "46fb2dc7-ee07-435d-9a27-0a7b4d43d3d7",
+      "mantela": "https://meishicafei.github.io/.well-known/mantela.json"
+    },
+    {
+      "name": "yude",
+      "prefix": "390",
+      "identifier": "3be47f94-3185-4198-ac3d-ca5ccb573cc2",
+      "mantela": "https://www.yude.jp.eu.org/.well-known/mantela.json"
+    },
+    {
+      "name": "kimkim0106",
+      "prefix": "106",
+      "identifier": "8b741e2b-45f9-4187-9da1-05d866b79a09",
+      "mantela": "https://tkytel.github.io/mantela/0.1/mantela.schema.json"
+    }
+  ]
+}
