@@ -36,19 +36,25 @@
     {
       "name": "Android",
       "extension": "887",
-      "type": "smartphone",
-      "identifier": "9OR3XIF8"
+      "identifier": "9OR3XIF8",
+      "type": "smartphone"
     },
     {
       "name": "main",
       "extension": "220",
-      "type": "main",
       "identifier": "EAU1TKMI",
+      "type": "main",
       "transferTo": [
         "MAVTNZCT",
         "8K0PV5V5",
         "9OR3XIF8"
       ]
+    },
+    {
+      "name": "VRCグループの番号（使用目的未定）",
+      "extension": "6282",
+      "type": "reserved",
+      "identifier": "Y2KR82T9"
     }
   ],
   "providers": [
