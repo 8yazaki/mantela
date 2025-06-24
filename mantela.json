@@ -51,6 +51,12 @@
       ]
     },
     {
+      "name": "FAX",
+      "extension": "883",
+      "type": "fax",
+      "identifier": "F9WZ1AWO"
+    },
+    {
       "name": "VRCグループの番号（使用目的未定）",
       "extension": "6282",
       "type": "reserved",
