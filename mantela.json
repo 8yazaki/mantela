@@ -6,7 +6,11 @@
     "preferredPrefix": [
       "808"
     ],
-    "identifier": "4a96b422-c07e-7b84-82aa-cd665e1e69a8"
+    "identifier": "4a96b422-c07e-7b84-82aa-cd665e1e69a8",
+    "sipUri": [
+      "sip:8yazaki-pbx.taile4f007.ts.net:5060;transport=udp",
+      "sip:8yazaki-pbx.taile4f007.ts.net:5060;transport=tcp"
+    ]
   },
   "extensions": [
     {
